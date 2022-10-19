@@ -172,13 +172,14 @@
   .video{
     width: 34vw;
     height: 19.13vw;
+    border-radius: 1vw;
   }
   .projthree{
-    background-color: #E8217B;
     width: 36vw;
     height: 20.25vw;
     position: relative;
     margin-top: 4.375vw;
+    border-radius: 1vw;
   }
   .projthreeleft{
     margin-left: 2vw;
