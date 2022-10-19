@@ -9,4 +9,6 @@ Bom dia professor! Essa e minha primeira vez fazendo um site e nao aprendemos na
 Vai aparecer um IP no terminal, so copiar ele e colar no seu navegador, preferencialmente o Chrome.
 A principio o site deve funcionar certinho, pelo menos no meu computador funcionou.
 
+Segue um video que fiz de como o site fica quando uso o localhost, ou seja, com o JavaScript funcionando: https://youtu.be/Gq3e234fQSc
+
 -Maruan =)
