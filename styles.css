@@ -1,0 +1,364 @@
+/********** Estilos Basae **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  @font-face {
+    font-family: 'MonumentExtended';
+    src: url('./fonts/Horizon.otf');
+  }
+  @font-face {
+    font-family: 'ClearSansRegular';
+    src: url('./fonts/ClearSans-Regular.ttf');
+  }
+  body{
+    background-color: #151315;
+  }
+  .content {
+    border: 0.3125vw solid #5E3795;
+    background-color: #201D20;
+    width: 100%;
+    height: 30vw;
+    border-radius: 1.6vw;
+    box-shadow: 0.75vw 0.75vw rgba(11, 10, 11, 0.8);
+  }
+  .row{
+    padding-top: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .box{
+    padding-bottom: 5vw;
+  }
+  .title{
+    font-family: 'MonumentExtended', Arial;
+    font-size: 5vw;
+    text-align: center;
+    color: #E8217B;
+    position: relative;
+    margin-top: 0.85%;
+    text-shadow: 0.325vw 0.325vw #151315;
+  }
+  .names{
+    font-family: 'MonumentExtended', Arial;
+    font-size: 1.03vw;
+    text-align: center;
+    color: #65CDCB;
+    position: relative;
+    text-shadow: 0.15vw 0.15vw #151315;
+  }
+  .generaldesc{
+    font-family:'ClearSansRegular', Arial;
+    font-size: 1.1vw;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 3.5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-shadow: 0.1vw 0.1vw #151315;
+  }
+  .extra{
+    font-family: 'MonumentExtended', Arial;
+    font-size: 1.225vw;
+    text-align: center;
+    color: #5E3795;
+    position: relative;
+    margin-top: 7%;
+    text-shadow: 0.185vw 0.185vw #151315;
+  }
+  .tools{
+    margin-top: -2.1%;
+    margin-left: 55%;
+    margin-bottom: 1.5%;
+  }
+  .stats{
+    margin-right: 55%;
+  }
+  .logos{
+    width: 7vw;
+    position: relative;
+    float: right;
+    margin-right: 1.4vw;
+    margin-top: -1.15vw;
+  }
+  .css{
+    margin-right: -2.2vw; 
+  }
+  .javascript{
+    margin-right: -2.2vw;
+  }
+  .threejs{
+    margin-right: -2.5vw;
+  }
+  .visualstudiocode{
+    margin-right: -0.5vw;
+    width: 3.2vw;
+    margin-top: 0.75vw;
+  }
+  .blender{
+    margin-right: -1.585vw;
+    width: 8.8vw;
+    margin-top: -2vw;
+  }
+  .projtitle{
+    font-family: 'MonumentExtended', Arial;
+    font-size: 1.9vw;
+    color:#65CDCB;
+    position: relative;
+    margin-top: 1.8vw;
+    text-shadow: 0.2vw 0.2vw #151315;
+  }
+  .projtitleleft{
+    float: left;
+    margin-left: 2.85vw;
+  }
+  .projtitleright{
+    float: right;
+    margin-right: 2.85vw;
+  }
+  .projdescbox{
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+  }
+  .projdescboxleft{
+    margin-left: 4vw;
+    margin-top: 6vw;
+  }
+  .projdescboxright{
+    float: right;
+    margin-right: -30vw;
+    margin-top: 6vw;
+  }
+  .projdesc{
+    font-family: 'ClearSansRegular', Arial;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    text-shadow: 0.115vw 0.115vw #151315;
+  }
+  .projdescbox2{
+    width: 27.5vw;
+    margin-right: -28.25vw;
+  }
+  .projdescbox3{
+    width: 31vw;
+  }
+  .projdescbox4{
+    width: 26.5vw;
+    margin-right: -27.5vw;
+  }
+  .projdescbox5{
+    width: 29vw;
+    margin-left: 3.875vw;
+  }
+  .videoframe{
+    width: 34vw;
+    height: 19.13vw;
+    float: right;
+    position: relative;
+    margin-top: -21.35vw;
+    margin-right: 2.5vw;
+  }
+  .video{
+    width: 34vw;
+    height: 19.13vw;
+  }
+  .projthree{
+    background-color: #E8217B;
+    width: 36vw;
+    height: 20.25vw;
+    position: relative;
+    margin-top: 4.375vw;
+  }
+  .projthreeleft{
+    margin-left: 2vw;
+  }
+  .projthreeright{
+    margin-right: 2vw;
+    float: right;
+    margin-top: -21.5vw;
+  }
+  .tcad{
+    font-family: 'ClearSansRegular', Arial;
+    font-size: 0.825vw;
+    font-weight: 1000;
+    color: #65CDCB;
+    text-align: center;
+    text-shadow: 0.125vw 0.125vw #151315;
+    margin-top: 2.5vw;
+  }
+  .tcad:hover{
+    color: #E8217B;
+    font-size: 0.8375vw;
+    text-decoration: underline solid #E8217B 0.135vw;
+  }
+  .navbartitle{
+    font-family: 'MonumentExtended', Arial;
+    color: #E8217B;
+    font-size: 1.9vw;
+    font-weight: 150;
+    margin-left: -25vw;
+    text-shadow: 0.275vw 0.275vw #151315;
+  }
+  .navbarmenu{
+    font-family: 'ClearSansRegular', Arial;
+    color: #fff;
+    font-size: 1.175vw;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+    margin-right: 5vw;
+    text-shadow: 0.125vw 0.125vw #151315;
+  }
+  .navbarmenu :hover{
+    color: #E8217B;
+  }
+  .menuactive{
+    color: #E8217B;
+  }
+  .navbarbox{
+    background-color: #201D20;
+    width: 100%;
+    height: 5vw;
+    outline: #5E3795 solid 0.3125vw;
+    box-shadow: 0vw 0.75vw rgba(11, 10, 11, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerlogo{
+    height: 4.85vw;
+    margin-top: 0.385vw;
+    margin-left: 1.1vw;
+  }
+  .namebox{
+    border: 0.3125vw solid #5E3795;
+    background-color: #201D20;
+    width: 30%;
+    height: 37.25vw;
+    border-radius: 1.6vw;
+    box-shadow: 0.65vw 0.65vw rgba(11, 10, 11, 0.8);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    float: left;
+  }
+  .namebox1{
+    margin-left: 2.5vw;
+  }
+  .namebox2{
+    margin-left: 2.25vw;
+    margin-right: 2.25vw;
+  }
+  .namebox3{
+    margin-right: 2.5vw;
+  }
+  .name{
+    font-family: 'MonumentExtended', Arial;
+    font-size: 3vw;
+    margin-top: 1vw;
+    text-align: center;
+    text-shadow: 0.25vw 0.25vw #E8217B, 0.54vw 0.54vw #151315;
+  }
+  .lastname{
+    font-family: 'MonumentExtended', Arial;
+    font-size: 1.25vw;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0.13vw 0.13vw #151315;
+  }
+  .namedesc{
+    font-family: 'ClearSansRegular', Arial;
+    color: #fff;
+    text-align: justify;
+    margin-top: 2.15vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+  }
+  .namegithub{
+  font-family: 'ClearSansRegular', Arial;
+  color: #5E3795;
+  font-size: 1.2vw;
+  font-weight: 1000;
+  text-shadow: 0.12vw 0.12vw #151315;
+  margin-top: 3vw;
+ 
+  }
+  .namegithub :hover{
+    color: #65CDCB;
+    text-decoration: underline;
+  }
+  @media (max-width: 500px){
+    .namebox{
+      width: 70%;
+      height: 24.25vw;
+      margin-left: 15%;
+    }
+    .namebox2, .namebox3{
+      margin-top: 0vw;
+    }
+    .namedesc{
+      margin-left: 6vw;
+      margin-right: 6vw;
+    }
+  }
+  .footerbox{
+    background-color: #201D20;
+    height: 8vw;
+    margin-top: 1.25vw;
+    border-top: 0.3125vw solid #5E3795;
+    box-shadow: -0.4vw -0.4vw rgba(11, 10, 11, 0.15);
+  }
+  .footerlogo{
+    height: 7vw;
+    margin-left: 43.55vw; /*COMO QUE CENTRALIZA COISA EM CSS TODA VEZ TENHO QUE FICAR BOTANDO MARGEM NO OLHOMETRO IMPOSSIVEL CENTRALIZAR*/
+    margin-top: 0.5vw;
+  }
+  .footertitle{
+    font-family: 'MonumentExtended', Arial;
+    color: #E8217B;
+    font-size: 2.35vw;
+    font-weight: 700;
+    text-shadow: 0.3vw 0.3vw #151315;
+    margin-top: -5.2vw;
+    margin-left: 31.5vw;
+  }
+  .credits{
+    font-family: 'ClearSansRegular';
+    color: black;
+    font-weight: 100;
+    margin-top: 1.1vw;
+  }
+  .creditsassets{
+    font-family: 'ClearSansRegular';
+    color: black;
+    font-size: 0.7vw;
+    font-weight: 100;
+    margin-top: -0.95vw;
+    float: right;
+  }
+  .gototop{
+    font-family: 'ClearSansRegular';
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9vw;
+    margin-top: -7.5vw;
+    float: right;
+    margin-right: 0.25vw;
+    text-shadow: 0.135vw 0.135vw #151315;
+  }
+  .gototop :hover{
+    color: #65CDCB;
+  }
+  .footerbox2{
+    background-color: #201D20;
+    height: 8vw;
+    margin-top: 1.25vw;
+    border-top: 0.3125vw solid #5E3795;
+    box-shadow: -0.4vw -0.4vw rgba(11, 10, 11, 0.15);
+    margin-top: 50vw;
+  }
