@@ -69,8 +69,14 @@
     margin-top: 7%;
     text-shadow: 0.185vw 0.185vw #151315;
   }
+  .statsinfo{
+    width: 25vw;
+    margin-left: 4.4vw;
+    margin-top: 1vw;
+    border-radius: 0.75vw;
+  }
   .tools{
-    margin-top: -2.1%;
+    margin-top: -8.35vw;
     margin-left: 55%;
     margin-bottom: 1.5%;
   }
