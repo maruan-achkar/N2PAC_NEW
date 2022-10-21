@@ -1,10 +1,8 @@
 import './styles.css'
 import { setupCounter } from './counter.js'
-import * as THREE from '../node_modules/three/build/three.module';
-import { GLTFLoader } from '../node_modules/three/addons/loaders/GLTFLoader.js';
-import { OrbitControls} from '../node_modules/three/examples/jsm/controls/OrbitControls.js';
-import { Light } from 'three';
-
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls} from 'three/addons/controls/OrbitControls.js';
 //---------------------------------------------------------------!!---------=)
 //Escrevi tudo em ingles mas fui eu que fiz, por favor me da nota!! 'Maruan =)
 //---------------------------------------------------------------!!---------=)
