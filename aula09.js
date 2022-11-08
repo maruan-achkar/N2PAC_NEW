@@ -1,7 +1,7 @@
 
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-
+import { OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
 
 //---------------------------------------------------------------!!---------=)
 //Escrevi tudo em ingles mas fui eu que fiz, por favor me da nota!! 'Maruan =)
